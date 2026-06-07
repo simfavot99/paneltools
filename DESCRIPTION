@@ -1,0 +1,19 @@
+Package: paneltools
+Title: Panel Data DiD Visualisation Tools
+Version: 0.1.0
+Authors@R: person("First", "Last", email = "simfavot99@gmail.com", role = c("aut", "cre"))
+Description: Helper functions for visualising Difference-in-Differences estimates
+    from panel data, with a focus on the did_multiplegt_stat estimators
+    (AOSS, WAOSS, IV-WAOSS) introduced by de Chaisemartin et al. (2022).
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Imports:
+    ggplot2,
+    dplyr,
+    purrr,
+    tibble
+Suggests:
+    DIDmultiplegtSTAT,
+    arrow,
+    here
