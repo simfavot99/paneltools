@@ -2,6 +2,19 @@
 
 A collection of R helper functions for visualising Difference-in-Differences (DiD) estimates from panel data, built around the `DIDmultiplegtSTAT` package by de Chaisemartin et al.
 
+## Installation
+
+```r
+# install.packages("devtools")
+devtools::install_github("simfavot99/paneltools")
+```
+
+## Load
+
+```r
+library(paneltools)
+```
+
 ---
 
 ## Functions
